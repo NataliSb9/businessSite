@@ -9,23 +9,23 @@ bg color: #1D1D1D
 color: #E1E1E1
 
 Fuente del navBar:
-font-family: Acumin Pro;
+font-family: 'Noto Sans', sans-serif;
 font-style: bold;
-font-size: 35px;
+font-size: 1.5rem;
 
 h3 de los titulos de sección:
-font-family: Acumin Pro;
+font-family: 'Noto Sans', sans-serif;
 font-style: bold;
 font-size: 32px;
 
 títulos de dentro del bloque son:
-font-family: Acumin Pro;
+font-family: 'Noto Sans', sans-serif;
 font-style: bold;
 font-size: 26px;
 
 párrafos:
 font-family: Acumin Pro;
-font-style: regular;
+font-family: 'Noto Sans', sans-serif;
 font-size: 20px;
 */
 
@@ -41,5 +41,20 @@ header {
     background-color:#DBDBDB;
     width: 100%;
     height: 70px;
+    position: fixed;
+    display: grid;
+    
 }
 
+nav{
+    position: fixed;
+}
+
+nav ul li{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #495916;
+    list-style: none;
+    display: inline;
+}
