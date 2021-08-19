@@ -31,4 +31,15 @@ font-size: 20px;
 
 body {
     background-color: #FAFAFA;
+    font-size: 16px;
 }
+
+
+/*NavBar*/
+
+header {
+    background-color:#DBDBDB;
+    width: 100%;
+    height: 70px;
+}
+
