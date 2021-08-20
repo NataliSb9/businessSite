@@ -39,6 +39,7 @@ body {
     font-size: 16px;
 }
 
+
 /*NavBar*/
 
 header {
@@ -77,5 +78,25 @@ nav ul li{
     display: inline;
 }
 
-/*herosection*/
+/*main*/
 
+main{
+    display: grid;
+    grid-template-columns: repeat(15,140px);
+    grid-template-rows: repeat(30, 50px);
+}
+
+.a{
+    grid-column: 2/ 10;
+    grid-row: 4 / 12;
+}
+
+.b {
+    grid-column: 2/ 10;
+    grid-row: 19 / span 5;
+}
+
+.c{
+    grid-column: 2/ 10;
+    grid-row: 23 / span 4;
+}
