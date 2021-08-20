@@ -82,21 +82,21 @@ nav ul li{
 
 main{
     display: grid;
-    grid-template-columns: repeat(15,140px);
+    grid-template-columns: repeat(15,100px);
     grid-template-rows: repeat(30, 50px);
 }
 
 .a{
-    grid-column: 2/ 10;
+    grid-column: 3/ 15;
     grid-row: 4 / 12;
 }
 
 .b {
-    grid-column: 2/ 10;
+    grid-column: 3/ 15;
     grid-row: 19 / span 5;
 }
 
 .c{
-    grid-column: 2/ 10;
+    grid-column: 3/ 15;
     grid-row: 23 / span 4;
 }
