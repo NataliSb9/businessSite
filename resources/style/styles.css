@@ -38,7 +38,31 @@ body {
     background-color: #FAFAFA;
     font-size: 16px;
 }
+/*texto*/
 
+.titlesSection{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #495916;
+}
+
+.sectionMenu {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #495916;
+}
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
+
+form {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
 
 /*NavBar*/
 
@@ -70,10 +94,6 @@ ul{
     column-gap: 2rem;
 }
 nav ul li{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #495916;
     list-style: none;
     display: inline;
 }
@@ -98,5 +118,5 @@ main{
 
 .c{
     grid-column: 3/ 15;
-    grid-row: 23 / span 4;
+    grid-row: 24 / span 4;
 }
