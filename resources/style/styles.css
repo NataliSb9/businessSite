@@ -52,6 +52,7 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     color: #495916;
+    text-align: center;
 }
 
 p{
@@ -98,29 +99,6 @@ nav ul li{
     display: inline;
 }
 
-/*main*/
-
-main{
-    display: grid;
-    grid-template-columns: repeat(15,100px);
-    grid-template-rows: repeat(30, 50px);
-}
-
-.a{
-    grid-column: 3/ 15;
-    grid-row: 4 / 12;
-}
-
-.b {
-    grid-column: 3/ 15;
-    grid-row: 19 / span 5;
-}
-
-.c{
-    grid-column: 3/ 15;
-    grid-row: 24 / span 4;
-}
-
 /*heroSection*/
 
 #heroSection { 
@@ -145,4 +123,80 @@ main{
     font-size: 2.5rem;
     color: #E1E1E1;
     text-align: center;
+}
+
+/*main*/
+
+main{
+    display: grid;
+    grid-template-columns: repeat(15,100px);
+    grid-template-rows: repeat(30, 70px);
+}
+
+.a{
+    grid-column: 3/ 15;
+    grid-row: 4 / 12;
+}
+
+.b {
+    grid-column: 3/ 15;
+    grid-row: 15 / span 5;
+}
+
+.c{
+    grid-column: 3/ 15;
+    grid-row: 23 / span 4;
+}
+
+/*Main Sections KnowUs*/
+
+.knowUs h2{
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 2.2rem;
+}
+main .knowUs img {
+    max-width:320px;
+}
+
+.knowUs{
+    margin-top: 20px;
+    max-width: 1020px;
+    height: 635px;
+    margin-left: 10px;
+    background-color: #DBDBDB; 
+}
+
+#philosophy{
+    display: grid;
+    grid-template-columns: repeat(15, 60px);
+    grid-template-rows: repeat(10, 30px);
+}
+
+#philosophy img {
+    grid-column: 3 / 4;
+    grid-row: 2 / 8;
+}
+
+#philosophy .textSection{
+    grid-column: 9 / 16;
+    grid-row: 3 / 10;
+    line-height: 29px;
+}
+
+#aboutUs{
+   display: grid;
+    grid-template-columns: repeat(15, 60px);
+    grid-template-rows: repeat(20, 30px);
+}
+
+#aboutUs img {
+    grid-column: 3 / 4;
+    grid-row: 1 / 8;
+}
+
+#aboutUs .textSection {
+    grid-column: 9 / 16;
+    grid-row: 2 / 10;
+    line-height: 28px;
 }
