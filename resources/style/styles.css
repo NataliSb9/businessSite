@@ -75,6 +75,7 @@ header {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: repeat(4, 10px);
+    box-shadow: 2px 2px 2px 1px #49591638;
 }
 
 nav{
