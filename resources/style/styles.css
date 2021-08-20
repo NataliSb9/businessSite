@@ -145,7 +145,7 @@ main{
 
 .c{
     grid-column: 3/ 15;
-    grid-row: 23 / span 4;
+    grid-row: 25 / span 4;
 }
 
 /*Main Sections KnowUs*/
@@ -200,3 +200,35 @@ main .knowUs img {
     grid-row: 2 / 10;
     line-height: 28px;
 }
+
+/*Form*/
+
+#contact h3{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(15, 60px);
+    grid-template-rows: repeat(14, 40px);
+}
+
+form {
+    margin-top: 50px;
+}
+
+form input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+form section{
+    margin-top: 15px;
+}
+
+form section input{
+    width: 200px;
+}
+
