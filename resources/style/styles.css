@@ -121,3 +121,28 @@ main{
     grid-row: 24 / span 4;
 }
 
+/*heroSection*/
+
+#heroSection { 
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(10, 30px);
+}
+
+#heroQuote{
+    grid-column: 3/ 8;
+    grid-row: 4 / 10;
+    background-color: #1D1D1D;
+    height: 80px;
+    width: 710px;
+    margin-left: 40px;
+}
+
+#heroQuote p{
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #E1E1E1;
+    text-align: center;
+}
