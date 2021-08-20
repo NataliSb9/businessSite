@@ -249,3 +249,15 @@ form #submitBoton{
 textarea{
     width: 500px;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: repeat(8, 15px);
+}
+
+footer p {
+    grid-row: 5 / 7;
+    grid-column: 9 / 13;
+    text-align: center;
+}
